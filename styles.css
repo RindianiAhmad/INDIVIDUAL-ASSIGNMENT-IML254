@@ -1,0 +1,156 @@
+article {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+body {
+    background-color: #75e6da;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #05445e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+h2,
+h3 {
+    font-family: 'Sitka Display', serif;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+    text-align: center;
+}
+
+iframe {
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
+img {
+    display: block;
+}
+
+nav {
+    background-color: #05445e;
+    text-align: center;
+}
+
+nav ul {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    overflow-x: auto;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section img {
+    aspect-ratio: 4/3;
+    margin-bottom: 20px;
+    object-fit: cover;
+    width: 30%;
+}
+
+section ol li {
+    line-height: 2;
+    margin: 20px 0;
+}
+
+table {
+    border: #05445e solid 2px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td,
+th {
+    border: #05445e solid 2px;
+    padding: 10px;
+}
+
+.box {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    align-self: center;
+    margin: 0;
+}
+
+.box img {
+    margin-bottom: 0;
+    object-fit: contain;
+    width: 20vw;
+}
+
+.box p {
+    align-self: center;
+    margin: 0;
+}
+
+.container {
+    padding: 0 10%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.menu {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.menu img {
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    width: 100%;
+}
+
+.menu p {
+    text-align: center;
+}
